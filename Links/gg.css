@@ -1,0 +1,179 @@
+
+@charset "UTF-8";
+
+@font-face{
+
+    font-family: longo;
+    src: url(/Font/Instalado/KopanyicaStrasse);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*.......body........*/
+
+body{
+
+    font-size: 14px;
+    background-color: rgb(97, 97, 97);
+
+}
+
+/*.......header........*/
+
+header{
+
+  height: 30%;
+  background-image: url(Imagem/hea.jpg);
+  padding: 10px;
+  background-position: left center;
+  background-size: 200px 200px;
+}
+
+  button{
+    
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(255, 255, 255, 0.199);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+  img#ii{
+
+    float: left;
+    margin-left: 1px;
+    height: 130px;
+    width: 90px;
+    border-radius: 90px;
+
+  }
+  h1{
+
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    float: right;
+    color: white;
+  }
+
+   /*.......sidebar........*/
+
+  main#corpo{
+
+    padding: 10px;
+    margin: auto;
+    clear: both;
+    background-color: rgb(255, 255, 255);
+
+  }
+
+ main p{
+
+    margin: 6px 0px;
+    font-size: 13px;
+    
+  }
+
+/*.......sidebar........*/
+
+  div#sidebar{
+
+    background-color: rgb(255, 255, 255);
+    clear: both;
+    margin: 6px auto;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.075);
+
+  }
+
+  div#dentro{
+
+    padding: 5px;
+  }
+
+  div#kk{
+
+    margin: 10px;
+  }
+  
+  div#kl{
+
+    margin: 10px;
+  }
+
+  img#ig{
+
+    padding-right: 10px;
+    clear: both;
+    float: left;
+  }
+  a#dow{
+
+    font-family: KopanyicaStrasse;
+    color: black;
+    text-decoration: none;
+    border-radius: 2px;
+    clear: both;
+    padding: 2px;
+  }
+
+  div#at{
+
+    border-radius: 90px;
+    margin: 6px ;
+    padding: 10px;
+    background: white;
+    display: inline-block;
+  }
+  
+  
+  section{
+
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+  }
+  video{
+    width: 200px;
+    height: 200px;
+  }
+
+  div#not{
+
+    
+    clear: both;
+    display: inline-block;
+    width: 250px;
+    min-width: 70px;
+    background: rgba(223, 198, 117, 0.39);
+    padding: 10px;
+    margin: 7px auto;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+  }
+
+  img#ig4{
+
+    min-width: 50px;
+    height: 219px;
+  }
+
+  /*.......footer........*/
+  footer{  
+
+    background-color: black;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    clear: both;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  footer,a{
+
+    text-align: center;
+  }
